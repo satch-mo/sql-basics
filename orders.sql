@@ -22,6 +22,9 @@ SELECT
 FROM orders;
 
 --total order price by single person_id
+SELECT SUM(product_price) FROM orders
+WHERE person_id = 1;
+
 
 
 
